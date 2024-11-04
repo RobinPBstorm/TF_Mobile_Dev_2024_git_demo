@@ -58,6 +58,47 @@ Pour renommer la brance **master** en **main**
 git branch -M main
 ```
 
+**Première fois avec git ?**
+
+Ajoutons notre nom et l'email dans la configuration globale
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+
+Indiquer quel(s) fichier(s) on enverra sur le dépôt distant
+
+Soit un par un:
+```
+git add nom_fichier
+```
+
+ou tout ceux modifié:
+```
+git add .
+```
+
+Préparons les modifications à l'envoi et en indiquant un message:
+```
+git commit -m "message pour le commit"
+```
+
+**Pas encore de dépôt distant d'enregistré ?**
+```
+git remote add origin https://github.com/RobinPBstorm/TF_Mobile_Dev_2024_git_demo.git
+```
+
+Enfin, nous envoyons nos changement avec:
+
+-la première fois:
+```
+git push -u origin main
+```
+-les fois suivante:
+```
+git push
+```
 
 
  ## 3. Importer un projet
