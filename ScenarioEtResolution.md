@@ -144,3 +144,13 @@ Changer de branche
 ```
 git checkout nom_branche
 ```
+
+
+fusionner la branche :
+
+1 passer sur la branche qui va recevoir
+2 merge
+```
+git checkout branch2
+git merge branch1
+```
