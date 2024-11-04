@@ -114,4 +114,10 @@ git clone https://adresse_projet
 
  ## 4. Travail a plusieurs sur git
 
+Le plus important c'est la communication:
+- indiquer qu'on push des changement
+- pull des fameux changments
 
+Rien n'empêche de faire pull tardif
+
+Dans les pires des cas, on aura à faire de la gestion de conflit
