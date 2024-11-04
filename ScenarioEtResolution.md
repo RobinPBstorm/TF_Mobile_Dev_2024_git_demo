@@ -4,16 +4,16 @@
   <summary>Table des matières</summary>
   <ol>
     <li>
-     <a href="#demarrage">Avant de demarrer</a>
+     <a href="#avant-de-demarrer">Avant de demarrer</a>
     </li>
     <li>
-     <a href="#exporter">Exporter un Projet</a>
+     <a href="#exporter-un-projet">Exporter un Projet</a>
     </li>
     <li>
-      <a href="#importer">Importer un projet</a>
+      <a href="#importer-un-projet">Importer un projet</a>
     </li>
     <li>
-      <a href="#equipe">Travail a plusieurs sur git</a>
+      <a href="#travail-a-plusieurs-sur-git">Travail a plusieurs sur git</a>
     </li>
   </ol>
 </details>
@@ -107,7 +107,10 @@ git push
 
  ## 3. Importer un projet
 
-
+On clone le projet (l'adresse est trouvable sur la github du projet)
+```
+git clone https://adresse_projet
+```
 
  ## 4. Travail a plusieurs sur git
 
