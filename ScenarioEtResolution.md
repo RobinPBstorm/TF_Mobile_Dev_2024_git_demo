@@ -121,3 +121,13 @@ Le plus important c'est la communication:
 Rien n'empêche de faire pull tardif
 
 Dans les pires des cas, on aura à faire de la gestion de conflit
+
+```
+git pull
+```
+puis discuter des éléments à garder
+```
+git add .
+git commit -m "gestion de conflit"
+git push
+```
