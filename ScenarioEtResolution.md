@@ -114,6 +114,7 @@ git clone https://adresse_projet
 
  ## 4. Travail a plusieurs sur git
 
+### gestion de conglit
 Le plus important c'est la communication:
 - indiquer qu'on push des changement
 - pull des fameux changments
@@ -130,4 +131,16 @@ puis discuter des éléments à garder
 git add .
 git commit -m "gestion de conflit"
 git push
+```
+
+### branche
+
+Réalise une copie de la branche sur laquelle on se trouve et la nomme comme lui indique
+```
+git branch nom_nouvelle_branche
+```
+
+Changer de branche
+```
+git checkout nom_branche
 ```
