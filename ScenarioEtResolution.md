@@ -38,7 +38,15 @@ git --help
 
  ## 2. Exporter un Projet
 
-Préparer le projet pour git
+**Première fois avec git sur cette machine ?**
+
+Ajoutons notre nom et l'email dans la configuration globale
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
+### Préparer le projet pour git
 
 Bien le faire dans le dossier du projet
 
@@ -46,6 +54,7 @@ Bien le faire dans le dossier du projet
 git init
 ```
 
+### Vérifions l'état des fichiers
 Pour afficher l'état de mes fichiers du projet:
 
 ```
@@ -57,15 +66,7 @@ Pour renommer la brance **master** en **main**
 ```
 git branch -M main
 ```
-
-**Première fois avec git ?**
-
-Ajoutons notre nom et l'email dans la configuration globale
-```
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-```
-
+### Ajout des fichiers à envoyer
 
 Indiquer quel(s) fichier(s) on enverra sur le dépôt distant
 
@@ -79,6 +80,8 @@ ou tout ceux modifié:
 git add .
 ```
 
+### Plaçons un message pour décrire l'ensemble de modification qu'on envoit 
+
 Préparons les modifications à l'envoi et en indiquant un message:
 ```
 git commit -m "message pour le commit"
@@ -88,6 +91,8 @@ git commit -m "message pour le commit"
 ```
 git remote add origin https://github.com/RobinPBstorm/TF_Mobile_Dev_2024_git_demo.git
 ```
+
+### Envoit des commits
 
 Enfin, nous envoyons nos changement avec:
 
@@ -99,7 +104,6 @@ git push -u origin main
 ```
 git push
 ```
-
 
  ## 3. Importer un projet
 
