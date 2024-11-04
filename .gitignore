@@ -1,0 +1,5 @@
+# tous les fichiers textes
+*.txt
+
+# tous les fichiers dans le dossier temp
+/temp/*
